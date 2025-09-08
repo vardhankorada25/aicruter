@@ -2,7 +2,7 @@
 import React from 'react'
 import { SidebarProvider, SidebarTrigger }from "@/components/ui/sidebar";
 import {AppSidebar} from './_components/AppSidebar.jsx';
-import WelcomeContainer from './dashboard/_components/welcomecontainer';
+import WelcomeContainer from './dashboard/_components/welcomeContainer';
 function DashboardProvider({children}) {
   return (
     <SidebarProvider>
